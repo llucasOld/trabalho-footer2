@@ -1,0 +1,217 @@
+@font-face {
+    font-family:font1 ;
+    src: url(fonts/coolvetica\ condensed\ rg.otf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(fonts/LEMONMILK-Bold.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: solid 1px red; */
+}
+
+
+body{
+margin: 0;
+padding: 0;
+}
+
+.caixa-logo{
+    background-color: cadetblue;
+    height: 180px;
+    width: 640px;
+}
+
+.dimensao{
+    display: flex;
+    margin-top: -40px;
+}
+
+.subir-topo{
+    margin-left: 340px;
+    background-color: cadetblue;
+    width: 50px;
+    height: 70px;
+}
+
+.subir-topo img{
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 20px;
+}
+
+.caixa-logo img{
+    margin-left: 150px;
+    height: 90px;
+}
+
+
+
+.caixa-logo{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(194, 99, 11);
+}
+
+
+    footer .container{
+    display: flex;
+    margin-top: 100px;
+  
+}
+
+
+
+.caixaverde{
+    box-shadow: 0px 0px 30px 2px;
+    background-color: darkolivegreen;
+    background-attachment: fixed;
+    border-radius: 4px; 
+    padding: 15px;
+    margin-left: 25px;
+    width: 500px;
+    margin-top: 1%;
+    
+}
+
+
+.caixaverde h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal; 
+    font-size: 40px;  
+}
+
+.caixaverde p{
+   
+        font-family: "Play", sans-serif;
+        font-weight: 700;
+        font-style: normal;  
+}
+
+.caixaverde button{
+    margin-top: 40px;
+    height: 100px;
+    width: 140px; 
+     background-color: #00000042;
+    border: none;
+    border: solid rgb(0, 0, 0);
+    transition: 0.6s;
+    border-radius: 4px;
+}
+
+
+.caixaverde button:hover{
+    border: solid rgb(156, 156, 156);
+    background-color: #b2b7bb48;
+}
+
+.caixaverde img{
+    height: 40px;
+}
+
+
+.mapa img{
+    margin-left: 170%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media ( max-width: 750px){
+    .blocod{
+        height: 100px;
+        width: 700px;
+    }
+
+    .blocop img{
+        height: 300px;
+        margin-left: -3px;
+    }
+    
+    .texto-gev h2{
+        font-size: 15px;
+    }
+    .texto-gev p{
+        font-size: 15px;
+    }
+    .texto-gev button{
+        font-size: 10px;
+    }
+
+    .caixaverde{
+        height: 550px;
+        width: 90%;
+        margin-left: 5px;
+    }
+    
+    .caixaverde h2{
+        font-size: 30px;
+    }
+
+    .caixaverde button{
+        height: 50px;
+        width: 150px;
+        margin-top: 100px;
+        
+    }
+
+    .caixaverde p{
+        margin-top: 30px;
+    }
+}
